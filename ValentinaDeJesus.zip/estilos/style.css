@@ -4,6 +4,8 @@ body{
     font-family: "Bevan", serif;
     font-weight: 400;
     font-style: italic;
+    display: flex;
+    flex-direction: column;
  }
     
 header {
@@ -37,9 +39,10 @@ header {
     background-color:#e6d1b2;
     margin-left: 200px;
     margin-right: 200px;
+    flex: 1;
       }
     
-.fondo.texto {
+.fondo.texto li{
         font-family: "Bevan", serif;
         font-weight: 400;
         font-style: normal;
@@ -47,8 +50,9 @@ header {
       margin-left: 100px;
       margin-right: 100px;
        margin-bottom: 40px;
+       
       }
-.cajas { 
+.cajas ul{ 
   width: 30vw;
   height: 20vh;
   margin: 5%; 
@@ -57,25 +61,22 @@ header {
   box-sizing: content-box;
   margin-top: 40px;
   background-color: #8b4b4b;
-  display: block;
-  position: relative;
+  display: inline-block;
   right: -255px;
   border-radius: 10px;
   color:white ;
   font-size: 25px;
+  list-style: none;
 }
 .texto {
   font-family: "Bevan", serif;
   font-weight: 400;
   font-style: normal;
   box-sizing: content-box;
-}
-.texto {
   margin-top: 40px;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 40px;
-  list-style: none;
   font-size: 20px;
   img{
     margin-top: 40px;
@@ -97,7 +98,25 @@ a:hover{
 a:active {
   color: #8b4b4b;
 }
-  
+footer ul{
+  background-color: #8b4b4b;
+  color: black;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.texto li{
+  margin-top: 20px;
+  list-style: none;
+  display: inline-block;
+}
+.volver{ 
+  background-color: #8b4b4b;
+}
   
       
 
