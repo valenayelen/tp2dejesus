@@ -1,0 +1,104 @@
+body{
+    background-color:#f4d09a;
+    text-align: center;
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: italic;
+ }
+    
+header {
+   margin-top: 25px;
+   margin-bottom: 10px;
+   margin-left: 200px;
+   background-color: #e6d1b2;
+    margin-right: 200px;
+    border-radius: 20px;
+   
+  }
+#logo {
+  position: relative;
+  right: 555px;
+  top: 5px
+}
+#theoffice {
+  position: relative;
+  top: -10px;
+
+  
+}
+#video1{
+  border-radius: 5px;
+  margin-top: 10px;
+}
+ main {
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#e6d1b2;
+    margin-left: 200px;
+    margin-right: 200px;
+      }
+    
+.fondo.texto {
+        font-family: "Bevan", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 40px;
+      margin-left: 100px;
+      margin-right: 100px;
+       margin-bottom: 40px;
+      }
+.cajas { 
+  width: 30vw;
+  height: 20vh;
+  margin: 5%; 
+  height: max-content;
+  padding: auto;
+  box-sizing: content-box;
+  margin-top: 40px;
+  background-color: #8b4b4b;
+  display: block;
+  position: relative;
+  right: -255px;
+  border-radius: 10px;
+  color:white ;
+  font-size: 25px;
+}
+.texto {
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: content-box;
+}
+.texto {
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  list-style: none;
+  font-size: 20px;
+  img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}   
+.info.temporadas {
+  font-size: 20px;
+}
+a{
+  color: aliceblue;
+}
+a:visited {
+  color: #f4d09a;
+}
+a:hover{
+  color: #f3a7a7;
+}
+a:active {
+  color: #8b4b4b;
+}
+  
+  
+      
+
+      
