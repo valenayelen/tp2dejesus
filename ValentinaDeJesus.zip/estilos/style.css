@@ -87,10 +87,10 @@ header {
   font-size: 20px;
 }
 a{
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
 a:visited {
-  color: #f4d09a;
+  color: #000000;
 }
 a:hover{
   color: #f3a7a7;
@@ -116,6 +116,7 @@ footer ul{
 }
 .volver{ 
   background-color: #8b4b4b;
+  font-size: 30px;
 }
 
       
